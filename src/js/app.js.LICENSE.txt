@@ -1,0 +1,73 @@
+/*!
+ * Sizzle CSS Selector Engine v2.3.5
+ * https://sizzlejs.com/
+ *
+ * Copyright JS Foundation and other contributors
+ * Released under the MIT license
+ * https://js.foundation/
+ *
+ * Date: 2020-03-14
+ */
+
+/*!
+ * VERSION: 1.15.0
+ * DATE: 2014-12-03
+ * UPDATES AND DOCS AT: http://www.greensock.com
+ * 
+ * Includes all of the following: TweenLite, TweenMax, TimelineLite, TimelineMax, EasePack, CSSPlugin, RoundPropsPlugin, BezierPlugin, AttrPlugin, DirectionalRotationPlugin
+ *
+ * @license Copyright (c) 2008-2014, GreenSock. All rights reserved.
+ * This work is subject to the terms at http://www.greensock.com/terms_of_use.html or for
+ * Club GreenSock members, the software agreement that was issued with your membership.
+ * 
+ * @author: Jack Doyle, jack@greensock.com
+ **/
+
+/*!
+ * jQuery JavaScript Library v3.5.1
+ * https://jquery.com/
+ *
+ * Includes Sizzle.js
+ * https://sizzlejs.com/
+ *
+ * Copyright JS Foundation and other contributors
+ * Released under the MIT license
+ * https://jquery.org/license
+ *
+ * Date: 2020-05-04T22:49Z
+ */
+
+/*!
+ * jQuery Transit - CSS3 transitions and transformations
+ * (c) 2011-2014 Rico Sta. Cruz
+ * MIT Licensed.
+ *
+ * http://ricostacruz.com/jquery.transit
+ * http://github.com/rstacruz/jquery.transit
+ */
+
+/*!
+ * jQuery Validation Plugin v1.19.2
+ *
+ * https://jqueryvalidation.org/
+ *
+ * Copyright (c) 2020 Jörn Zaefferer
+ * Released under the MIT license
+ */
+
+/*! Copyright (c) 2011 Piotr Rochala (http://rocha.la)
+ * Dual licensed under the MIT (http://www.opensource.org/licenses/mit-license.php)
+ * and GPL (http://www.opensource.org/licenses/gpl-license.php) licenses.
+ *
+ * Version: 1.3.2 (modified for fullpage.js)
+ *
+ */
+
+/**
+ * @license
+ * Lodash <https://lodash.com/>
+ * Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
+ * Released under MIT license <https://lodash.com/license>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ */

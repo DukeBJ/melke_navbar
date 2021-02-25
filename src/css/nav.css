@@ -1,0 +1,134 @@
+.ml-nav {
+  background-color: rgb(11 11 14 / 70%);
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.ml-nav .container {
+  padding: 0;
+  /* padding-top: 20px; */
+  height: 100%;
+}
+
+.ml-nav .container .row {
+  height: 100%;
+  align-items: center;
+}
+
+.ml-nav .logo img {
+  height: 60px;
+  width: auto;
+}
+
+.ml-nav .ml-nav-col {
+  height: 100%;
+}
+
+.ml-nav .ml-top-nav {
+  height: 100%;
+}
+
+.ml-nav .ml-top-nav .navbar-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+  margin-left: -20px;
+  margin-right: -20px;
+  height: 100%;
+}
+
+.ml-nav .ml-top-nav .navbar-nav > li {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(11 11 14 / 0%);
+  transition: 0.3s all ease-in-out;
+}
+
+.ml-nav .ml-top-nav .navbar-nav > li:hover {
+  background-color: rgb(29 11 20 / 100%);
+  transition: 0.3s all ease-in-out;
+  cursor: crosshair;
+}
+
+.ml-nav .ml-top-nav .navbar-nav > li svg {
+  margin: 0 auto;
+  display: block;
+}
+
+.ml-nav .ml-top-nav .navbar-nav > li .nav-description {
+  text-align: center;
+}
+
+@media (min-width: 1020px) {
+  .menu-button,
+  .fullpage-wrapper .logo {
+    display: none;
+  }
+}
+
+@media (max-width: 1020px) {
+  .ml-nav {
+    display: none;
+  }
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu.sub-one{
+    display: none;
+    position: absolute;
+    top: 80px;
+    padding: 20px;
+    margin-left: -20px;
+    background-color: rgb(24 31 35 / 70%);
+    width: 220px;
+  }
+
+  .navbar .nav-item .dropdown-menu.sub-two{
+    display: none;
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    top: -20px;
+    left: 240px;
+    padding: 20px;
+    background-color: rgb(24 31 35 / 70%);
+  }
+
+  .navbar .nav-item .dropdown-menu.sub-one > li::after {
+    content: "▶";
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .navbar .nav-item .dropdown-menu.sub-one > li {
+    line-height: 30px;
+    position: relative;
+  }
+
+	.navbar .nav-item:hover .nav-link{
+    color: #fff;
+  }
+	.navbar .nav-item.active .dropdown-menu.sub-one{
+    display: block;
+  }
+
+  .navbar .nav-item.active .dropdown-menu.sub-one .dropdown-item.active .dropdown-menu.sub-two{
+    display: block;
+  }
+
+	.navbar .nav-item .dropdown-menu.sub-one{
+    margin-top:0;
+  }
+}
