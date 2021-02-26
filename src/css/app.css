@@ -173,11 +173,11 @@ ul li {
     z-index: 100;
 }
 #play-button.play {
-    cursor: url('../images/play.svg'), auto;
+    cursor: url('../images/play.svg') 15 15, auto;
     background: none;
 }
 #play-button.pause {
-    cursor: url('../images/pause.png'), auto;
+    cursor: url('../images/pause.png') 15 15, auto;
     background: none;
 }
 #home .logo {
