@@ -58,6 +58,10 @@
 .ml-nav .ml-top-nav .navbar-nav > li:hover {
   background-color: rgb(29 11 20 / 100%);
   transition: 0.3s all ease-in-out;
+  cursor: pointer;
+}
+
+.ml-nav .ml-top-nav .navbar-nav > li.dropdown:hover {
   cursor: crosshair;
 }
 
@@ -68,6 +72,56 @@
 
 .ml-nav .ml-top-nav .navbar-nav > li .nav-description {
   text-align: center;
+}
+
+.ml-nav-aside {
+  position: absolute;
+  top: 50vh;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.ml-nav-aside ul {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.ml-nav-aside ul li {
+  height: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.ml-nav-aside ul li .aside-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b13675;
+}
+
+.ml-nav-aside ul li .aside-title {
+  position: relative;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 10px;
+  top: 0;
+  left: 100%;
+  z-index: -1;
+  background-color: #b13675;
+  display: flex;
+  align-items: center;
+  transition: .3s all ease-in-out;
+}
+
+.ml-nav-aside ul li:hover .aside-title {
+  left: 0;
+  transition: .3s all ease-in-out;
 }
 
 @media (min-width: 1020px) {
@@ -120,7 +174,7 @@
     height: 1px;
     background-color: #fff;
     transform: rotate(90deg);
-    transition: .1s all ease-in-out;
+    transition: .3s all ease-in-out;
   }
 
   .navbar .nav-item .dropdown-menu.sub-one .dropdown-item:hover .dropdown-item__arrow::after {
@@ -133,7 +187,7 @@
     height: 1px;
     background-color: #fff;
     transform: rotate(135deg);
-    transition: .1s all ease-in-out;
+    transition: .3s all ease-in-out;
   }
 
   .navbar .nav-item .dropdown-menu.sub-one .dropdown-item .dropdown-item__arrow::before {
@@ -146,7 +200,7 @@
     height: 1px;
     background-color: #fff;
     transform: rotate(90deg);
-    transition: .1s all ease-in-out;
+    transition: .3s all ease-in-out;
   }
 
   .navbar .nav-item .dropdown-menu.sub-one .dropdown-item:hover .dropdown-item__arrow::before {
@@ -159,7 +213,7 @@
     height: 1px;
     background-color: #fff;
     transform: rotate(45deg);
-    transition: .1s all ease-in-out;
+    transition: .3s all ease-in-out;
   }
 
   .navbar .nav-item .dropdown-menu.sub-two{
